@@ -140,7 +140,7 @@ Download the code to your machine, and make the following changes, using tokens 
 <tr>
 <td>js/main.js</td>
 <td>js.src</td>
-<td>VoiceStorm JS SD</td>
+<td>VoiceStorm JS SDK</td>
 </tr>
 <tr>
 <td rowspan="3">config.php</td>
@@ -158,23 +158,6 @@ Download the code to your machine, and make the following changes, using tokens 
 <td>Channel.html</td>
 <td>script src</td>
 <td>VoiceStorm JS SDK</td>
-<tr>
-<td>/claim/js/claim.js</td>
-<td>js.src</td>
-<td>VoiceStorm JS SD</td>
-</tr>
-<tr>
-<td rowspan="3">/claim/config.php</td>
-<td>$ACCESS</td>
-<td>Access Token</td>
-<tr>
-<td>$SECRET</td>
-<td>Token Secret
-</tr>
-<tr>
-<td>$BASE_URL</td>
-<td>REST API Base URL</td>
-</tr>
 </table>
 
 **Examples**
@@ -223,7 +206,7 @@ VoiceStorm provides two registration options:
 </table>
 
 <ol>
-<li>In order to test registration in Claim Account mode, navigate to http://[example.com]/samplesite/claim/.</li>
+<li>In order to test registration in Claim Account mode, navigate to http://[example.com]/claim.php.</li>
 <li>All other function can be tested at http://[example.com]/samplesite/:
 <ol><li>Sign-up (for Public spheres).</li>
 <li>Send a broadcast email.</li>
