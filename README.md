@@ -89,19 +89,22 @@ You will need to contact DS and request an instance of VoiceStorm with API acces
 
 ###Step 3: Configure your new VoiceStorm community
 
-1.  **Set Up API**
-    2. 	At Admin -> API ([example].voicestorm.com/manage/api) make the following changes:
+####Set Up API
+
+1. At Admin -> API ([example].voicestorm.com/manage/api) make the following changes:
+  2. *For the purpose of this step, we are assuming that you are hosting your site in a /samplesite directory.*
 
 | API Settings | URL | Explanation |
 | ------------ | ---- | -----------|
 | Trusted API Domains |    *[example.com] | Domain whitelist. | 
 | Post Routing URL  |  http://[example.com]/samplesite/renderpost.php?id=$id | Landing page for In-App posts |
-| Reset Password URL    | http://[example.com]/samplesite/reset.php?code=$code | Appears in a "reset password" email |
-| Registration URL | http://[example.com]/samplesite/index.php | User is redirected to this link when registering
-|Community Homepage URL | http://[example.com]/samplesite/ | Appears in the "Welcome" email sent to a new user. |
+| Reset Password URL | http://[example.com]/samplesite/reset.php?code=$code | Appears in a "reset password" email |
+| Registration URL | http://[example.com]/samplesite/index.php | User is redirected to this link when registering |
+| Invitation URL | http://[example.com]/samplesite/registerform.php?code=$code | Appears in the "Invitation" email sent to an invited user, |
+| Community Homepage URL | http://[example.com]/samplesite/ | Appears in the "Welcome" email sent to a new user. |
 
-<ol>
-<li><b>Connect Feeds</b></li>
+####Connect Feeds
+
 <ol>
 <li>VoiceStorm provides two mechanisms to stock the community with content.</li>
 <li>Direct user submissions.</li>
@@ -113,7 +116,8 @@ You will need to contact DS and request an instance of VoiceStorm with API acces
 </ol><li>Once feeds are attached, the community will import posts from these feeds and display them to members for sharing.</li></ol>
 
 
-<li><b>Set Up Streams</b></li>
+####Set Up Streams
+
 <ol>
 <li>Streams control content organization throughout the member hub.</li>
 <li>All content that appears on the home page is fed by a particular stream:</li>
@@ -121,10 +125,7 @@ You will need to contact DS and request an instance of VoiceStorm with API acces
 <li>Current</li>
 <li>Showcase</li>
 <li>Twitter</li>
-<li>Facebook</li>
-</ol>
-</ol>
-</ol>
+<li>Facebook</li></ol></ol>
 
 ###Step 4: Modify test package to point at your own VoiceStorm instance
 
