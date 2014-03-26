@@ -66,7 +66,7 @@ The sample site is built using widgets, JavaScript SDK, and limited use of of RE
 <ol>
 <li>Ensure CURL is installed.</li>
 <li>Ensure PHP is installed.</li>
-</ol><li>Save “samplesite” directory into the WAMP file structure.</li>
+</ol><li>Download the code to the desired directory within the WAMP file structure.</li>
 </ol>
 
 You should now be able to run the code against our test VS instance. Try it by opening up your install location in a browser. Next, let’s get you set up on your own VoiceStorm instance.
@@ -76,8 +76,8 @@ You should now be able to run the code against our test VS instance. Try it by o
 You will need to contact DS and request an instance of VoiceStorm with API access.  Be sure you get the following from the DS rep:
 
 <ol>
-<li>URL for the new community (<i>example</i>.voicestorm.com)</li>
-<li>The Admin -> API should be visible in the manager application (<i>example</i>.voicestorm.com/manage/api), and this information should be available in that tab:</li>
+<li>URL for the new community ([example].voicestorm.com)</li>
+<li>The Admin -> API should be visible in the manager application ([example].voicestorm.com/manage/api), and this information should be available in that tab:</li>
 <ol>
 <li>Access Token</li>
 <li>Manager login credentials</li>
@@ -90,7 +90,7 @@ You will need to contact DS and request an instance of VoiceStorm with API acces
 ###Step 3: Configure your new VoiceStorm community
 
 1.  **Set Up API**
-    2. 	At Admin -> API (*example*.voicestorm.com/manage/api) make the following changes:
+    2. 	At Admin -> API ([example].voicestorm.com/manage/api) make the following changes:
 
 | API Settings | URL | Explanation |
 | ------------ | ---- | -----------|
@@ -128,7 +128,7 @@ You will need to contact DS and request an instance of VoiceStorm with API acces
 
 ###Step 4: Modify test package to point at your own VoiceStorm instance
 
-Download the code to your machine, and make the following changes, using tokens and URLs found at Admin -> API (*example*.voicestorm.com/manage/api).
+Download the code to your machine, and make the following changes, using tokens and URLs found at Admin -> API ([example]voicestorm.com/manage/api).
 
 <table>
 <tr>
@@ -192,6 +192,11 @@ $BASE_URL="https://[example].voicestorm.com/v1";
 <script src="http://[example].voicestorm.com/v1/voicestorm.js"></script>
 ```
 
+
+###Step 5: Testing
+
+Please test the following functions
+
 ####Registration and Log-In
 
 VoiceStorm provides two registration options:
@@ -216,40 +221,14 @@ VoiceStorm provides two registration options:
 </tr>
 </table>
 
-In order to test registration in Claim Account mode, the following additional changes are required:
-
-**At Admin -> API (example.voicestorm.com/manage/api)**
-
-<table>
-<tr>
-<th>API Settings</th>
-<th>URL</th>
-</tr>
-<tr>
-<td>Invitation URL</td>
-<td>http://[example.com]/samplesite/claim/registerform.php?code=$code</td>
-</tr>
-<tr>
-<td>Community Homepage URL</td>
-<td>http://[example].com/samplesite/claim/</td>
-</tr>
-</table>
-
-###Step 5: Testing
-
-Please test the following functions
-
 <ol>
-<li>Register:</li>
-<ol>
-<li>For public spheres, via http://[example.com]/samplesite/</li>
-<li>For Claim Account spheres, via http://[example.com]/samplesite/claim/ (all other activity can be tested at the root directory).</li></ol>
+<li>In order to test registration in Claim Account mode, navigate to http://[example.com]/samplesite/claim/.</li>
+<li>All other function can be tested at http://[example.com]/samplesite/:
+<ol><li>Sign-up (for Public spheres).</li>
 <li>Send a broadcast email.</li>
-<ol>
-<li>Utilize the View and Share options from the email</li></ol>
-<li>Reset password.</li>
-<li>Make sure to exercise all of the above-listed routing URLs.</li>
-</ol>
+<ol><li>Utilize the View and Share options from the email.</li></ol><li>Reset password.</li>
+<li>Make sure to exercise all of the routing URLs listed in Step 3.</li>
+</ol></ol>
 
 **Have any questions?**
 
