@@ -126,7 +126,7 @@ You will need to contact DS and request an instance of VoiceStorm with API acces
 </ol>
 </ol>
 
-##Step 4: Modify test package to point at your own VoiceStorm instance
+###Step 4: Modify test package to point at your own VoiceStorm instance
 
 Download the code to your machine, and make the following changes, using tokens and URLs found at Admin -> API (*example*.voicestorm.com/manage/api).
 
@@ -192,7 +192,7 @@ $BASE_URL="https://[example].voicestorm.com/v1";
 <script src="http://[example].voicestorm.com/v1/voicestorm.js"></script>
 ```
 
-###Registration and Log-In
+####Registration and Log-In
 
 VoiceStorm provides two registration options:
 
@@ -235,7 +235,7 @@ In order to test registration in Claim Account mode, the following additional ch
 </tr>
 </table>
 
-###Step 4: Testing
+###Step 5: Testing
 
 Please test the following functions
 
