@@ -1,0 +1,42 @@
+* Adding handle: conn: 0x1c33de8
+* Adding handle: send: 0
+* Adding handle: recv: 0
+* Curl_addHandleToPipeline: length: 1
+* - Conn 11 (0x1c33de8) send_pipe: 1, recv_pipe: 0
+* About to connect() to sravanthitest2.voicestorm.com port 443 (#11)
+*   Trying 64.13.171.75...
+* Connected to sravanthitest2.voicestorm.com (64.13.171.75) port 443 (#11)
+* successfully set certificate verify locations:
+*   CAfile: C:\Program Files (x86)\PHP\v5.3\cacert.pem
+  CApath: none
+* SSL connection using DHE-RSA-AES256-SHA
+* Server certificate:
+* 	 subject: OU=Domain Control Validated; OU=EssentialSSL Wildcard; CN=*.voicestorm.com
+* 	 start date: 2014-01-11 00:00:00 GMT
+* 	 expire date: 2015-01-11 23:59:59 GMT
+* 	 subjectAltName: sravanthitest2.voicestorm.com matched
+* 	 issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=EssentialSSL CA
+* 	 SSL certificate verify ok.
+> POST /v1/register HTTP/1.1
+Host: sravanthitest2.voicestorm.com
+Accept: */*
+Authorization: Bearer aUNVN3lMQlI5NTVoTlJ4d2VWQjB3Zz09X0tzRzVjUzZUZXFCbmVaS1NsZStEVGpTVjNRWmR1a1BZOGNYeXp2Q3dka2ZHeXQzVCtCZnd1cytna0VaZWNqU3VEYWNGU0dXVHFzSTczRmVVaVdGRUE3NEg4UW9mOWxtVGFrNmlWcFNDRmQ0bnVJT0RkVWdRU2VQNk9yT3lESlIr
+Content-Length: 107
+Content-Type: application/x-www-form-urlencoded
+
+* upload completely sent off: 107 out of 107 bytes
+< HTTP/1.1 200 OK
+* Server nginx is not blacklisted
+< Server: nginx
+< Date: Tue, 25 Feb 2014 01:25:50 GMT
+< Content-Type: application/json; charset=utf-8
+< Content-Length: 1091
+< Connection: keep-alive
+< Cache-Control: private
+< X-Server-Build: 2014.02.18.1 [15]
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+< Access-Control-Allow-Headers: Content-Type
+< X-DS-Request-Id: fb375640-1372-4966-a390-0675d684e8a7
+< 
+* Connection #11 to host sravanthitest2.voicestorm.com left intact

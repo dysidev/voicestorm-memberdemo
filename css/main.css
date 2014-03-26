@@ -1,0 +1,1559 @@
+body > .container 
+{
+  margin-top: 20px;
+}
+body > .container,
+.navbar-default > .container
+{
+  min-width: 400px;
+}
+#alertMessage
+{
+  display:none;
+}
+.modal 
+{
+  overflow-y: auto;
+}
+#toggle 
+{
+  position: relative;
+  top: -29px;
+  border: 1px solid #ddd;
+  color: #666;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+
+/* To Remove The Dashed Line */
+a:focus
+{
+  -moz-outline-style: none;
+}
+a:focus 
+{ 
+  outline:none 
+}
+
+/* Header CSS */
+/* Header Nav */
+.navbar-default
+{
+  background-color: #f3f3f3;
+  border: 1px #E0E0E0 solid;
+}
+.navbar-default .navbar-nav > li > a 
+{
+  color: #777777;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus 
+{
+  background-color: #E0E0E0;
+  color: #333333;
+}
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus 
+{
+  color: #333333;
+}
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-brand:hover
+{
+  color: #666;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus 
+{
+  background-color: #f3f3f3;
+  color: #333333;}
+
+/* Drop Down Memu */
+.dropdown-menu
+{
+  background-color: #f3f3f3;
+  border: 1px solid #E0E0E0;
+  padding: 0;
+  margin: 0;
+}
+.dropdown-menu > li
+{
+  line-height: 30px;
+}
+.dropdown-menu > li > a 
+{
+  color: #666;
+  padding: 5px 10px;
+  display: block;
+  line-height: 30px;
+}
+.dropdown-menu > li:hover > a,
+.dropdown-menu > li:hover 
+{
+  background-color: #E0E0E0;
+  color: #333333;
+}
+.dropdown-menu .divider 
+{
+  margin: 0;
+  background-color: #E0E0E0;
+}
+
+/* Index Page CSS */
+.index-content > .tab-content 
+{
+  border-left: 1px solid #E0E0E0;
+  border-right: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 10px;
+}
+.index-content > .nav-tabs 
+{
+  margin-bottom: 0;
+}
+.index-content .nav-tabs > li > a,
+.index-content .nav-tabs > li > a:hover
+{
+  font-size: 22px;
+  color: #999;
+  text-shadow: 0 1px 0 #fff;
+  background-color: #f8f8f8;
+  border-top: 1px solid #E0E0E0;
+  border-right: 1px solid #E0E0E0;
+}
+.index-content .nav-tabs > li > a:hover
+{
+  color: #666;
+  border-bottom: 1px solid #E0E0E0;
+}
+.form-horizontal[role="form"]
+{
+  background: #fff; 
+  background: -moz-linear-gradient(top,  #f8f8f8 0%, #ffffff 100%); 
+  background: -webkit-linear-gradient(top,  #f8f8f8 0%,#ffffff 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#ffffff',GradientType=0 ); 
+  padding: 20px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.form-horizontal[role="form"] legend
+{
+  border: none;
+  margin: 0;
+}
+#signIn .form-horizontal[role="form"],
+#signUp .form-horizontal[role="form"]
+{
+  margin-top: 15px;
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+#signIn .facebook,
+#signIn .twitter,
+#signUp .facebook,
+#signUp .twitter
+{
+  padding: 0 25px 0 0;
+  line-height: 50px;
+  width: 135px;
+  text-align: left;
+}
+
+/* Home Page CSS */
+/* Stream */
+.voicestorm-stream-widget ul 
+{
+  padding-left: 0;
+  margin: 45px 0 0 0;
+}
+.voicestorm-stream-widget li 
+{
+  list-style: none;
+  padding: 45px 0 50px 0;
+  border-top: 0.3125em solid #428BCA;
+}
+.voicestorm-stream-widget .voicestorm-stream-post-image 
+{
+  float: left;
+  margin-right: 15px;
+}
+.voicestorm-stream-widget .voicestorm-stream-post-image img 
+{
+  max-width: 100%;
+}
+.voicestorm-stream-widget .voicestorm-stream-post-summary h5 
+{
+  margin-top: 0;
+}
+.voicestorm-stream-widget .voicestorm-stream-post-summary h5 a
+{
+  font-size: 30px;
+  line-height: 35px;
+  color: #333;
+}
+.voicestorm-stream-widget .voicestorm-stream-post-summary div 
+{
+  font-size: 16px;
+  line-height: 25px;
+}
+.voicestorm-stream-widget .voicestorm-stream-post-summary section > div
+{
+  margin-bottom: 5px;
+}
+.voicestorm-stream-widget .voicestorm-share-button 
+{
+  margin-top: 20px;
+}
+.container-stream-widget footer 
+{
+  padding: 0 0 30px 0;
+}
+.container-stream-widget .socialPost + .socialPost .voicestorm-renderpost-twitter 
+{
+  border-top: 1px solid #ddd;
+  padding: 30px 0 0 0;
+}
+.container-stream-widget .voicestorm-renderpost-renderer-tw 
+{
+  width: 100%;
+}
+.container-stream-widget .voicestorm-renderpost-renderer-tw header .voicestorm-renderpost-provider-author 
+{
+  display: block;
+}
+.container-stream-widget .voicestorm-renderpost-renderer-tw header .voicestorm-renderpost-pubdate
+{
+  display: block;
+  position: inherit;
+}
+.btn-primary
+{
+  background-color: #428BCA;
+  color: #fff;
+  border: none;
+}
+.voicestorm-share-button
+{
+  background-color: #428BCA;
+  color: #fff;
+  border: none;
+  padding: 7px 13px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.voicestorm-share-button-stats 
+{
+  color: #999;
+  line-height: 18px;
+}
+
+/* Carousel */
+.container-carousel 
+{
+  padding: 15px 15px 10px 15px;
+  border: 1px solid #e0e0e0;
+  background-color: #F8F8F8;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.carousel-indicators 
+{
+  float: right;
+  left: auto;
+  position: inherit;
+  width: auto;
+  bottom: inherit;
+  margin-bottom: 0;
+}
+.carousel-inner > .item 
+{
+  min-height: 410px;
+}
+.carousel-indicators .active
+{
+  background-color: #666666;
+  border: 1px solid #666666;
+}
+.carousel-indicators > li
+{
+  border: 1px solid #ccc;
+  background-color: #ccc;
+}
+.container-carousel .voicestorm-renderpost-large-image-wrapper 
+{
+  float: left;
+  margin-right: 10px;
+}
+.voicestorm-renderpost-widget.voicestorm-renderpost-syndicatedurl .voicestorm-renderpost-link.voicestorm-renderpost-title-link
+{
+  font-size: 30px;
+  line-height: 35px;
+}
+.voicestorm-renderpost-widget.voicestorm-renderpost-syndicatedurl .voicestorm-share-button
+{
+  float: left;
+  margin-right: 5px;
+}
+.voicestorm-renderpost-widget.voicestorm-renderpost-syndicatedurl .voicestorm-share-button-stats > span
+{
+  display: block;
+}
+.voicestorm-renderpost-widget.voicestorm-renderpost-syndicatedurl hgroup h2 
+{
+  margin-top: 15px;
+}
+.voicestorm-renderpost-widget.voicestorm-renderpost-syndicatedurl .voicestorm-renderpost-description 
+{
+  font-size: 16px;
+  line-height: 25px;
+}
+.voicestorm-renderpost-byline.voicestorm-widget-byline-no-type 
+{
+  color: #999999;
+  display: block;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+/* Right Sidebar */
+a.list-group-item 
+{
+  color: #666;
+  border: 1px solid #E0E0E0;
+}
+a.list-group-item.active, 
+a.list-group-item.active:hover, 
+a.list-group-item.active:focus 
+{
+  background-color: #f3f3f3;
+  border: 1px solid #E0E0E0;
+  color: #333;
+}
+a.list-group-item:hover, 
+a.list-group-item:focus 
+{
+  background-color: #fff;
+  color: #333;
+}
+
+/* Profile CSS */
+/* Horizontal Tabs */
+.nav-tabs 
+{
+  border-bottom: 1px solid #E0E0E0;
+}
+.nav-tabs > li > a 
+{
+  color: #999;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover
+{
+  background: #fff; 
+  background: -moz-linear-gradient(top,  #f8f8f8 0%, #ffffff 100%); 
+  background: -webkit-linear-gradient(top,  #f8f8f8 0%,#ffffff 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#ffffff',GradientType=0 ); 
+  color: #333;
+}
+.nav-tabs > li > a:hover 
+{
+  color: #666;
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+/* Tab Content */
+.container > .tab-content 
+{
+  padding: 15px;
+}
+.container > legend 
+{
+  border: none;
+}
+.container li 
+{
+  list-style: none;
+}
+.deleteAccount li
+{
+  list-style: disc;
+}
+
+/* Forms */
+.voicestorm-form-group 
+{
+  clear: both;
+}
+.voicestorm-form-group + .voicestorm-form-group 
+{
+  margin-top: 10px;
+}
+.voicestorm-form-group .voicestorm-help-text
+{
+  display: block;
+  color: #999;
+}  
+.voicestorm-form-group input[type="text"], .voicestorm-form-group input[type="password"], 
+.voicestorm-form-group textarea, .voicestorm-form-group input[type="url"]
+{
+  width: 55%;
+  background: #fff; 
+  border: 1px solid #CCCCCC;
+  box-shadow: 0 3px 1px #f0f0f0 inset;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: #555555;
+  display: inline-block;
+  font-size: 14px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  padding: 6px 10px;
+}
+.voicestorm-form-group select,
+select.voicestorm-createpost-select-type
+{
+  background: #fefefe; 
+  background: -moz-linear-gradient(top,  #fefefe 0%, #fefefe 25%, #e1e1e1 75%);
+  background: -webkit-linear-gradient(top,  #fefefe 0%,#fefefe 25%,#e1e1e1 75%);
+  padding: 5px;
+  color: #444;
+  border: 1px solid #CCCCCC;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 14px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.voicestorm-form-group input[type="file"] 
+{
+  display: inline-block;
+  color: #999;
+  font-size: 85%;
+}
+.voicestorm-form-group input[type="file"]:invalid,
+.voicestorm-form-group input[type="file"]:required 
+{
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.voicestorm-form-group .voicestorm-profilepublic-profileurl + .voicestorm-profilepublic-profileurl
+{
+  margin-top: 10px;
+}
+.voicestorm-form-group > label
+{
+  width: 21%;
+  text-align: right;
+  margin-right: 15px;
+  font-size: 15px;
+  line-height: 33px;
+  float: left;
+  line-height: 35px;
+}
+.voicestorm-submit-button
+{
+  margin-top: 10px;
+}
+.voicestorm-form-group textarea
+{
+  height: 20%;
+  vertical-align: middle;
+}
+#bio .voicestorm-form-group:nth-of-type(1) .voicestorm-control-group,
+#bio .voicestorm-form-group:nth-of-type(4) .voicestorm-control-group,
+#bio .voicestorm-form-group:nth-of-type(5) .voicestorm-profilepublic-affiliation,
+#bio .voicestorm-form-group:nth-of-type(6) .voicestorm-profilepublic-affiliation
+{
+  vertical-align: middle;
+  display: inline-block;
+}
+#bio .voicestorm-form-group:nth-of-type(4) ul 
+{
+  padding-left: 0;
+}
+#bio .voicestorm-form-group:nth-of-type(4) .voicestorm-control-group input[type="url"] 
+{
+  width: 88%;
+  margin-right: 5px;
+}
+#bio .voicestorm-form-group:nth-of-type(4) .voicestorm-control-group
+{
+  width: 55%;
+}
+#bio .voicestorm-form-group > label
+{
+  width: 30%;
+}
+.voicestorm-createpost-widget form > div
+{
+  margin-top: 30px;
+}
+.voicestorm-profilepublic-affiliation input[type="radio"], 
+.voicestorm-profilepublic-affiliation input[type="checkbox"] 
+{
+	float: left;
+	margin-left: -20px;
+}
+.voicestorm-profilepublic-affiliation > label 
+{
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  min-height: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+/* Dashboard */
+#dashboard > legend
+{
+  padding: 10px 0 10px 15px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #f8f8f8;
+}
+#dashboard > legend ~ legend 
+{
+  margin-top: 30px;
+}
+#dashboard > .btn-primary
+{
+  background-color: #5CB85C;
+  margin-top: 20px;
+}
+#dashboard ul 
+{
+  padding-left: 0;
+}
+.voicestorm-userposts-widget > ul li + li,
+.voicestorm-usercomments-widget > ul li + li
+{
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+}
+.voicestorm-usercomments-widget h3,
+.voicestorm-userposts-widget h3 
+{
+  color: #666;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.voicestorm-usercomments-widget .voicestorm-usercomments-channels 
+{
+  display: inline-block;
+  position: relative;
+  left: 5px;
+  vertical-align: top;
+}
+.voicestorm-usercomments-widget .voicestorm-usercomments-channels li
+{
+  display: inline-block;
+  margin: 0 2px 0 0;
+}
+.voicestorm-usercomments-widget .voicestorm-usercomments-post-summary h5,
+.voicestorm-userposts-widget .voicestorm-userposts-post-summary h5
+{
+  margin: 0;
+}
+.voicestorm-usercomments-widget .voicestorm-usercomments-post-summary h5 a,
+.voicestorm-userposts-widget .voicestorm-userposts-post-summary h5 a
+{
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+}
+.voicestorm-usercomments-widget .voicestorm-usercomments-post-description,
+.voicestorm-userposts-widget .voicestorm-usercomments-post-description
+{
+  margin-top: 7px;
+}
+.voicestorm-userposts-widget .voicestorm-share-button,
+.voicestorm-usercomments-widget .voicestorm-share-button
+{
+  clear: both;
+  display: block;
+}
+.voicestorm-userposts-post-image img 
+{
+  vertical-align: top;
+  border: 1px solid #ddd;
+}
+.voicestorm-usercomments-post-image,
+.voicestorm-userposts-post-image
+{
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.voicestorm-usercomments-profile-image
+{
+  float: left;
+  margin-right: 5px;
+}
+.voicestorm-usercomments-comment 
+{
+  margin-top: 20px;
+  position: relative;
+}
+.voicestorm-usercomments-comment-text
+{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	float: left;
+	vertical-align: text-top;
+	line-height: 26px;
+	padding: 5px 10px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	max-width: 80%;
+	margin-left: 4px;
+	background-color: #f3f3f3;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px #c6c6c6;
+}
+.voicestorm-usercomments-comment-text:before,
+.voicestorm-usercomments-comment-text:after
+{
+	border-style: solid;
+	width: 0;
+	height: 0;
+	position: absolute;
+	content: '';
+}
+.voicestorm-usercomments-comment-text:before
+{
+	border-width: 6px;
+	left: 38px;
+	top: 13px;
+	z-index: 2;
+	border-color: transparent #f3f3f3 transparent transparent;
+}
+.voicestorm-usercomments-comment-text:after
+{
+	border-width: 7px;
+	left: 35px;
+	top: 12px;
+	z-index: 1;
+	border-color: transparent #c6c6c6 transparent transparent;
+}
+
+/* Photos */
+.tab-content .voicestorm-profilephoto-widget .voicestorm-profilephoto-current 
+{
+  background: url("../imgs/default80.jpg") no-repeat;
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+.tab-content .voicestorm-profilephoto-widget .voicestorm-form-group > label
+{
+  float: none;
+  width: auto;
+  text-align: left;
+  display: block;
+}
+.tab-content .voicestorm-form-group.voicestorm-profilephoto-preview-icon canvas
+{
+  float: left;
+  margin-bottom: 10px; 
+}
+.tab-content .voicestorm-form-group.voicestorm-profilephoto-preview-icon label
+{
+  margin-left: 10px; 
+}
+.tab-content .voicestorm-profilephoto-widget form .voicestorm-submit-button 
+{
+  display: block;
+  clear: both;
+}
+
+/* Channels */
+#channels > legend
+{
+  padding: 10px 0 10px 15px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #f8f8f8;
+}
+#connectedChannels 
+{
+  margin-bottom: 20px;
+}
+#addChannels ul 
+{
+  padding-left: 0;
+}
+.voicestorm-profilechannels-widget em 
+{
+  font-style: normal;
+}
+.voicestorm-profilechannels-widget ul 
+{
+  padding-left: 0;
+}
+.voicestorm-profilechannels-widget li + li
+{
+  margin-top: 10px;
+}
+
+/* Small Social Widgets */
+.voicestorm-profilechannels-channel 
+{
+  margin-right: 5px;
+}
+.voicestorm-profilechannels-widget li a[data-provider]:before,
+.voicestorm-usercomments-widget li a[data-provider]
+{
+  background-image: url("../imgs/socialIcon20.png");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.voicestorm-usercomments-widget li a[data-provider]
+{
+  text-indent: -9999px;
+  position: relative;
+  top: -2px;
+}
+.voicestorm-profilechannels-widget li a[data-provider]:before
+{
+  content: '';
+  margin-right: 5px;
+}
+.voicestorm-profilechannels-widget li a[data-provider="Facebook"]:before,
+.voicestorm-usercomments-widget li a[data-provider="Facebook"]
+{
+  background-position: 0 -40px;
+}
+.voicestorm-profilechannels-widget li a[data-provider="FacebookPage"]:before,
+.voicestorm-usercomments-widget li a[data-provider="FacebookPage"]
+{
+  background-position: 0 -60px;
+}
+.voicestorm-profilechannels-widget li a[data-provider="Twitter"]:before,
+.voicestorm-usercomments-widget li a[data-provider="Twitter"]
+{
+  background-position: 0 -80px;
+}
+.voicestorm-profilechannels-widget li a[data-provider="Blogger"]:before,
+.voicestorm-usercomments-widget li a[data-provider="Blogger"]
+{
+  background-position: 0 -100px;
+}
+.voicestorm-profilechannels-widget li a[data-provider="LinkedIn"]:before,
+.voicestorm-usercomments-widget li a[data-provider="LinkedIn"]
+{
+  background-position: 0 -140px;
+}
+.voicestorm-profilechannels-widget li a[data-provider="LinkedInGroup"]:before,
+.voicestorm-usercomments-widget li a[data-provider="LinkedInGroup"] 
+{
+  background-position: 0 -700px;
+}
+.voicestorm-profilechannels-widget li a[data-provider="Journal"]:before,
+.voicestorm-usercomments-widget li a[data-provider="Journal"]
+{
+  background-position: 0 -200px;
+}
+.voicestorm-profilechannels-widget li a[data-provider="Movable"]:before,
+.voicestorm-usercomments-widget li a[data-provider="Movable"]
+{
+  background-position: 0 -400px;
+}
+.voicestorm-profilechannels-widget li a[data-provider="Tumblr"]:before,
+.voicestorm-usercomments-widget li a[data-provider="Tumblr"]
+{
+  background-position: 0 -160px;
+}
+.voicestorm-profilechannels-widget li a[data-provider="TypePad"]:before,
+.voicestorm-usercomments-widget li a[data-provider="TypePad"]
+{
+  background-position: 0 -180px;
+}
+.voicestorm-profilechannels-widget li a[data-provider="WordPress"]:before,
+.voicestorm-usercomments-widget li a[data-provider="WordPress"]
+{
+  background-position: 0 -240px;
+}
+.voicestorm-profilechannels-widget li a[data-provider="YouTube"]:before,
+.voicestorm-usercomments-widget li a[data-provider="YouTube"]
+{
+  background-position: 0 -260px;
+}
+.voicestorm-profilechannels-widget li a[data-provider="SyndicatedUrl"]:before,
+.voicestorm-usercomments-widget li a[data-provider="SyndicatedUrl"]
+{
+  background-position: 0 0;
+}
+.voicestorm-profilechannels-removechannel
+{
+  display: none;
+}
+
+/* Large Social Widgets */
+.voicestorm-profileaddchannels-widget li,
+#signIn .facebook,
+#signIn .twitter,
+#signUp .facebook,
+#signUp .twitter
+{
+  background: #f9f9f9;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e1e1e1',GradientType=0 ); 
+  background: -webkit-linear-gradient(top,  #fefefe 0%,#fefefe 25%,#e1e1e1 75%); 
+  background: -moz-linear-gradient(top,  #fefefe 0%, #fefefe 25%, #e1e1e1 75%);
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  box-shadow: 0 1px 1px #CCCCCC;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.voicestorm-profileaddchannels-widget li:hover,
+#signIn .facebook:hover,
+#signIn .twitter:hover,
+#signUp .facebook:hover,
+#signUp .twitter:hover
+{
+  background: #f0f0f0;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebeced',GradientType=0 ); 
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#ffffff 30%,#ebeced 100%);
+  background: -moz-linear-gradient(top,  #ffffff 0%, #ffffff 30%, #ebeced 100%); 
+}
+.voicestorm-profileaddchannels-widget li a 
+{
+  color: #fff;
+  line-height: 48px;
+  height: 48px;
+  width: 150px;
+  display: block;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider],
+#signIn .facebook,
+#signIn .twitter,
+#signUp .facebook,
+#signUp .twitter
+{
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+  vertical-align: middle;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider]:hover 
+{
+  text-decoration: none;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider]:before,
+#signIn .facebook:before,
+#signIn .twitter:before,
+#signUp .facebook:before,
+#signUp .twitter:before
+{
+  background-image: url("../imgs/socialIcon40.png");
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  float: left;
+  content: '';
+  margin: 5px 5px 0 5px;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider="Facebook"]:before,
+#signIn .facebook:before,
+#signUp .facebook:before
+{
+  background-position: 0 -80px;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider="FacebookPage"]:before 
+{
+  background-position: 0 -120px;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider="Twitter"]:before,
+#signIn .twitter:before,
+#signUp .twitter:before
+{
+  background-position: 0 -160px;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider="Blogger"]:before 
+{
+  background-position: 0 -200px;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider="LinkedIn"]:before 
+{
+  background-position: 0 -280px;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider="LinkedInGroup"]:before 
+{
+  background-position: 0 -1360px;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider="Journal"]:before 
+{
+  background-position: 0 -400px;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider="Movable"]:before 
+{
+  background-position: 0 -800px;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider="Tumblr"]:before 
+{
+  background-position: 0 -320px;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider="TypePad"]:before 
+{
+  background-position: 0 -360px;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider="WordPress"]:before 
+{
+  background-position: 0 -480px;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider="YouTube"]:before 
+{
+  background-position: 0 -520px;
+}
+.voicestorm-profileaddchannels-widget li a[data-provider="SyndicatedUrl"]:before 
+{
+  background-position: 0 0;
+}
+
+/* Settings */
+#sideTab 
+{
+  display: inline-block;
+  margin-right: 19px;
+  border-right: 1px solid #E0E0E0;
+  border-bottom: none;
+  width: 15%;
+}
+#sideTab > li
+{
+  float: none;
+}
+#sideTab > li > a
+{
+  min-width: 74px;
+  margin-bottom: 3px;
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+#sideTab > li > a:hover,
+#sideTab > li > a:focus 
+{
+  border-color: #E0E0E0;
+}
+#sideTab .active > a,
+#sideTab .active > a:hover,
+#sideTab .active > a:focus 
+{
+  border-color: #E0E0E0 transparent #E0E0E0 #E0E0E0;
+  *border-right-color: #ffffff;
+}
+#sideTab > li > a:hover,
+#sideTab > li > a:focus 
+{
+  border: 1px solid transparent;
+}
+.tabbable .tab-content 
+{
+  display: inline-block;
+  width: 81%;
+  vertical-align: top;
+}
+
+/* Post */
+#template-help-text
+{
+  background-color: #F3F3F3;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 165px;
+}
+.article-sprite.photo 
+{
+    background-position: 0 -15px;
+}
+.article-sprite.video 
+{
+    background-position: 0 -315px;
+}
+.article-sprite.update 
+{
+    background-position: 0 -215px;
+}
+.article-sprite {
+    background-image: url("../imgs/article-sprite.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 80px;
+    overflow: hidden;
+    text-indent: -99999px;
+    width: 100px;
+	margin-right: 25px;
+}
+#template-help-text p 
+{
+	
+}
+
+/* Leaderboard */
+.voicestorm-leaderboard-widget 
+{
+  width: 660px;
+  margin: 0 auto;
+}
+.voicestorm-leaderboard-widget ul 
+{
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking 
+{
+  list-style: none;
+  width: 33%;
+  display: inline-block;
+  margin-bottom: 25px;
+  vertical-align: top;
+  position: relative;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking a:hover 
+{
+  text-decoration: none;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(1):hover,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(2):hover,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(3):hover,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking
+{
+  padding: 10px;
+  background: transparent;
+  border: 1px transparent solid;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:hover,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:focus
+{
+  background-color: #e1e1e1;
+  border: 1px #D3D3D3 solid;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking .voicestorm-leaderboard-ranking-image-default 
+{
+  background: url("../imgs/default40.jpg") no-repeat;
+  display: block;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 5px;
+  vertical-align: top;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(1) .voicestorm-leaderboard-ranking-image-default,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(2) .voicestorm-leaderboard-ranking-image-default,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(3) .voicestorm-leaderboard-ranking-image-default 
+{
+  background: url("../imgs/default160.jpg") no-repeat;
+  width: 160px;
+  height: 160px;
+  float: none;
+  margin-bottom: 5px;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(1) img,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(2) img,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(3) img
+{
+  width: 160px;
+  height: 160px;
+  float: none;
+  margin-bottom: 5px;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking img 
+{
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 5px;
+  border: 1px solid #C9C9C9;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(1) .voicestorm-leaderboard-ranking-user div,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(2) .voicestorm-leaderboard-ranking-user div,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(3) .voicestorm-leaderboard-ranking-user div 
+{
+  font-size: 15px;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking .voicestorm-leaderboard-ranking-user div 
+{
+  display: block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(1) h5,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(2) h5,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(3) h5 
+{
+  font-size: 16px;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(1) h5:before,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(2) h5:before,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(3) h5:before  
+{
+  background-position: 0 -41px;
+  height: 20px;
+  width: 23px;
+  margin-left: -1px;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking h5:before 
+{
+  content: '';
+  display: inline-block;
+  background-image: url("../imgs/sharesprite.png");
+  background-repeat: no-repeat;
+  background-position: -4px -13px;
+  vertical-align: middle;
+  height: 15px;
+  width: 15px;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking h5 
+{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking h6 
+{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #333;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking-user em 
+{
+  font-style: normal;
+}
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(1) em,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(2) em,
+.voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(3) em 
+{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #428BCA;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Welcome */
+.welcomeSteps .voicestorm-profilephoto-widget .voicestorm-profilephoto-current 
+{
+  background: url("../imgs/default80.jpg") no-repeat;
+  background-position: 360px 0;
+  height: 80px;
+}
+.welcomeSteps .voicestorm-profilephoto-widget .voicestorm-profilephoto-current:before 
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 358px;
+  content: '';
+}
+.welcomeSteps .voicestorm-profilephoto-widget .voicestorm-form-group > label
+{
+  width: 30%;
+  position: relative;
+  top: -55px;
+}
+.welcomeSteps .voicestorm-profilephoto-preview
+{
+  margin: 0 auto;
+}
+.welcomeSteps  .voicestorm-form-group.voicestorm-profilephoto-preview-icon canvas
+{
+  float: left;
+  margin-bottom: 10px; 
+}
+.welcomeSteps .voicestorm-profilephoto-widget form .voicestorm-submit-button 
+{
+  margin: 55px 0 0 10px;
+}
+
+/* Welcome Wizard */
+ol.welcomeWizard
+{
+	list-style-type: none;
+	text-align: center;
+	width: 465px;
+	margin: 20px auto 40px auto;
+	padding: 0;
+}
+ol.welcomeWizard li
+{
+	position: relative;
+	float: left;
+	margin: 0;
+}
+
+/* Outer Circle Bkgd */
+ol.welcomeWizard div
+{
+	width: 64px;
+	height: 64px;
+	-webkit-border-radius: 33px;
+	border-radius: 33px;
+	float: left;
+	z-index: 1;
+	position: relative;
+	margin: 0 30px 0 51px;
+	background-color: #cfcfcf;
+	border: 2px solid #fbfbfb;
+	color: #fff;
+	box-shadow: 0 0 4px #c1c1c1 inset;
+}
+
+/* Inner Circle */
+/* Gray Bkgd */
+ol.welcomeWizard li.first.current + li div:before
+{
+	content: '';
+	display: inline-block;
+	background-color: #cfcfcf;
+	border: 2px solid #cfcfcf;
+	box-shadow: none;
+}
+
+/* White Bkgd */
+ol.welcomeWizard li.first div:before,
+ol.welcomeWizard li.first + li div:before
+{
+	content: '';
+	display: inline-block;
+	background-color: #fff;
+	border: 2px solid #fff;
+	box-shadow: none;
+}
+
+/* Blue Bkgd */
+ol.welcomeWizard div:before
+{
+	width: 48px;
+	height: 48px;
+	-webkit-border-radius: 48px;
+	border-radius: 48px; 
+	margin: 6px;
+	background-color: #cfcfcf;
+}
+ol.welcomeWizard li.first.current div:before, 
+ol.welcomeWizard li.last.current div:before,
+ol.welcomeWizard li.current div:before,
+ol.welcomeWizard li.first + li.current div:before
+{
+	content: '';
+	display: inline-block;
+	background-color: #428BCA;
+	border: 2px solid #fbfbfb;
+	box-shadow: 0 0 4px rgba(67,67,67,0.75) inset;
+}
+
+/* Numbers */
+ol.welcomeWizard div span
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: -52px;
+	display: block;
+	color: #fff;
+	text-shadow: 0 1px 0px #555;
+}
+ol.welcomeWizard li.last span
+{
+	margin-top: 14px;
+}
+ol.welcomeWizard li.first span,
+ol.welcomeWizard li.current span,
+ol.welcomeWizard li.first.current span,
+ol.welcomeWizard li.last.current span
+{
+	margin-top: -51px;
+}
+ol.welcomeWizard li.first span,
+ol.welcomeWizard li.first + li span
+{
+	color: #cfcfcf;
+	text-shadow: none;
+}
+
+ol.welcomeWizard li.first.current span,
+ol.welcomeWizard li.first.current + li span,
+ol.welcomeWizard li.first + li.current span
+{
+	color: #fff;
+	text-shadow: 0 1px 0px #555;
+}
+
+/* Horizontal Border */
+ol.welcomeWizard li #outer-connector
+{
+	position: absolute;
+	z-index: 2;
+	height: 25px;
+	top: 29px;
+	left: -38px;
+	width: 95px;
+	margin-top: -7px;
+}
+ol.welcomeWizard li + li #inner-connector span
+{
+	height: 11px;
+	display: block;
+	margin-top: 5px;
+	background-color: #cfcfcf;
+	border-top: 2px solid #fbfbfb;
+	border-bottom: 2px solid #fbfbfb;
+	box-shadow: 0 0 4px #c1c1c1 inset;			
+}
+
+/* Corner Bkgd Image */	
+ol.welcomeWizard li + li #outer-connector:before
+{
+	content: '';
+	float: left;
+	width: 15px;
+	height: 30px;
+	background: url('../imgs/step-bkgd.png') no-repeat -4px -9px;
+}
+ol.welcomeWizard li + li #inner-connector:before
+{
+	background: url('../imgs/step-bkgd.png') no-repeat -20px -10px;
+}
+ol.welcomeWizard li + li #inner-connector:before
+{
+	content: '';
+	float: right;
+	width: 15px;
+	height: 30px;
+}
+
+/* IE8 */
+.no-borderradius ol.welcomeWizard li + li #outer-connector:before,
+.no-borderradius ol.welcomeWizard li + li #inner-connector:before
+{
+	background: none;
+}
+
+.no-borderradius ol.welcomeWizard
+{
+	width: 480px;
+}
+
+.no-borderradius ol.welcomeWizard div 
+{ 
+	margin: 0 36px 0 55px; 
+}
+
+/* Media Query */
+@media (min-width: 980px) and (max-width: 1200px)
+{
+  #bio .voicestorm-form-group:nth-of-type(4) .voicestorm-control-group
+  {
+    width: 70%;
+  }
+  .voicestorm-form-group input[type="text"], .voicestorm-form-group input[type="password"], 
+  .voicestorm-form-group select, .voicestorm-form-group textarea, .voicestorm-form-group input[type="url"]
+  {
+    width: 70%;
+  } 
+}
+
+@media  (min-width: 768px) and (max-width: 979px)
+{
+  #bio .voicestorm-form-group:nth-of-type(4) .voicestorm-control-group
+  {
+    width: 70%;
+  }
+  .voicestorm-form-group input[type="text"], .voicestorm-form-group input[type="password"], 
+  .voicestorm-form-group select, .voicestorm-form-group textarea, .voicestorm-form-group input[type="url"]
+  {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px)
+{
+  #sideTab, 
+  {
+    width: 25%;
+  }
+  .tabbable .tab-content
+  {
+    width:74%;
+  }
+  .voicestorm-form-group > label,
+  #bio .voicestorm-form-group > label
+  {
+    text-align: left;
+    width: 100%;
+    line-height: inherit;
+  }
+  .container-carousel 
+  {
+	margin-top: 10px;
+  }
+  .voicestorm-profileaddchannels-widget ul 
+  {
+    width: 100%;
+  }
+  #bio .voicestorm-form-group:nth-of-type(4) .voicestorm-control-group
+  {
+    width: 100%;
+  }
+  .voicestorm-form-group input[type="text"], .voicestorm-form-group input[type="password"], 
+  .voicestorm-form-group select, .voicestorm-form-group textarea, .voicestorm-form-group input[type="url"]
+  {
+    width: 100%;
+  }
+  .welcomeSteps .voicestorm-profilephoto-widget 
+  {
+	margin-bottom: 20px;
+  }
+  .welcomeSteps .voicestorm-profilephoto-widget .voicestorm-profilephoto-current 
+  {
+	background: url("../imgs/default80.jpg") no-repeat 0 0;
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+  }
+  .welcomeSteps .voicestorm-profilephoto-widget .voicestorm-form-group > label
+  {
+	float: none;
+	width: 100%;
+	text-align: left;
+	display: block;
+	position: inherit;
+  }
+  .welcomeSteps .voicestorm-form-group.voicestorm-profilephoto-preview-icon canvas
+  {
+	float: left;
+	margin-bottom: 10px; 
+  }
+  .welcomeSteps .voicestorm-form-group.voicestorm-profilephoto-preview-icon label
+  {
+	margin-left: 10px; 
+  }
+  .welcomeSteps .voicestorm-profilephoto-widget form .voicestorm-submit-button 
+  {
+	display: block;
+	clear: both;
+	margin: 0;
+  }
+  .welcomeSteps .voicestorm-profilephoto-widget .voicestorm-profilephoto-current:before 
+  {
+	display: none;
+  }
+  .welcomeSteps .voicestorm-profilephoto-preview
+  {
+	margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px)
+{
+  .nav > li > a 
+  {
+	padding: 10px;
+  }
+  .container > .tab-content 
+  {
+    padding: 15px 0;
+  }
+  #sideTab
+  {
+    width: 30%;
+  }
+  .tabbable .tab-content
+  {
+    width: 60%;
+  }
+  #bio .voicestorm-form-group:nth-of-type(4) .voicestorm-control-group input[type="url"] 
+  {
+    width: 100%;
+  }
+  .voicestorm-leaderboard-widget 
+  {
+    width: 100%;
+    padding: 10px;
+  }
+  .voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking 
+  {
+    margin-bottom: 0;
+  }
+  .voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking + .voicestorm-leaderboard-ranking
+  {
+    margin-top: 20px;
+  }
+  .voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(1):hover,
+  .voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(2):hover,
+  .voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:nth-of-type(3):hover,
+  .voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking,
+  .voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:hover,
+  .voicestorm-leaderboard-widget .voicestorm-leaderboard-ranking:focus
+  {
+    background: transparent;
+    border: 1px solid #C9C9C9;
+    width: 100%;
+    box-shadow: 0 0 5px #CCCCCC;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  .voicestorm-stream-widget .voicestorm-stream-post-image,
+  .container-carousel .voicestorm-renderpost-large-image-wrapper
+  {
+    float: none;
+    margin-right: 0;
+  }
+  .voicestorm-stream-widget .voicestorm-stream-post-image img,
+  .container-carousel .voicestorm-renderpost-large-image-wrapper img
+  {
+    margin-bottom: 20px;
+  }
+  .voicestorm-stream-widget .voicestorm-stream-post-summary h5 a,
+  .voicestorm-renderpost-widget.voicestorm-renderpost-syndicatedurl .voicestorm-renderpost-link.voicestorm-renderpost-title-link
+  {
+    font-size: 27px;
+	line-height: 33px;
+  }
+  .voicestorm-renderpost-byline.voicestorm-widget-byline-no-type
+  {
+    font-size: 14px;
+  }
+  ol.welcomeWizard li #outer-connector
+  {
+	width: 80px;
+  }
+  ol.welcomeWizard div 
+  {
+    margin-left: 36px;
+  }
+}
+
