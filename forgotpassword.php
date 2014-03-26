@@ -35,7 +35,6 @@
 					forgotPasswordEmail: ko.observable(),
 					btnSendInstructions: function()
 					{
-						console.log(AppViewModel.forgotPasswordEmail());
 						options={email:AppViewModel.forgotPasswordEmail()};
                         VoiceStorm.api("POST", "login/forgotpassword", options).then(function (result)
                         {

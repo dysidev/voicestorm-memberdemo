@@ -34,6 +34,11 @@
                             <button class="btn btn-primary" data-bind="click: btnLogin">Log in</button>
                         </div>
                     </div>
+                    <div class="form-group">
+						<div class="col-sm-offset-2 col-sm-6">
+					  		<a href="forgotpassword.php">Trouble signing in?</a>
+						</div>
+				  	</div>
                 </form>
             </div>
             <div class="tab-pane" id="signUp">

@@ -114,7 +114,6 @@
 			                            {
 			                                AppViewModel.userId(user.id);
 			                                if (user.email) AppViewModel.userEmail(user.email);
-			                                console.log(AppViewModel.userEmail());
 			                            });
 			                            if (AppViewModel.userEmail())
 			                            {
