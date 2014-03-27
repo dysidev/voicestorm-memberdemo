@@ -206,7 +206,7 @@ VoiceStorm provides two registration options:
 </table>
 
 <ol>
-<li>In order to test registration in Claim Account mode, navigate to http://[example.com]/claim.php.</li>
+<li>In order to test registration in Claim Account mode, navigate to http://[example.com]/samplesite/claim.php.</li>
 <li>All other function can be tested at http://[example.com]/samplesite/:
 <ol><li>Sign-up (for Public spheres).</li>
 <li>Send a broadcast email.</li>
