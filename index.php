@@ -117,7 +117,16 @@
 		{
 			Init: function()
 			{
-				VoiceStorm.currentUser().then(SampleSite.UserSignedIn).fail(SampleSite.Page.userSign());
+			    VoiceStorm.currentUser().then(function (user) { SampleSite.Page.userRedirect(user) }).fail(SampleSite.Page.userSign());
+			},
+			userRedirect: function(user)
+			{
+			    if (user.status == "New") {
+			        SampleSite.UserWelcome();
+			    }
+			    else {
+			        SampleSite.UserSignedIn();
+			    }
 			},
 			userSign: function()
 			{
@@ -131,21 +140,14 @@
 			        regTerms: ko.observable(false),
 					btnSocial:  function(param)
 					{
-						VoiceStorm.socialLogin(param).then(SampleSite.UserSignedIn).fail(function(error)
+					    VoiceStorm.socialLogin(param).then(function (user) { SampleSite.Page.userRedirect(user) }).fail(function (error)
 						{
 							SampleSite.alertMessage("alertMessage","danger","Invalid login");		
 						});
 					},
 					btnLogin: function()
 					{
-					    VoiceStorm.login(AppViewModel.userName(), AppViewModel.userPassword()).then(function (user) {
-					        if (user.status == "New" && user.email) {
-					            SampleSite.UserWelcome();
-					        }
-					        else {
-					            SampleSite.UserSignedIn();
-					        }
-					    }).fail(function(error)
+					    VoiceStorm.login(AppViewModel.userName(), AppViewModel.userPassword()).then(function (user) { SampleSite.Page.userRedirect(user) }).fail(function (error)
 						{
 							SampleSite.alertMessage("alertMessage","danger","Invalid login");
 						});

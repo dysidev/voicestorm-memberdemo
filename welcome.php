@@ -26,6 +26,7 @@
 	</li>
 </ol>
 <div class="container welcomeSteps">
+    <div id="alertMessage" class="alert"></div>
 	<div class='contactContent'></div>
 	<div class="topContent"></div>
 	<div class="bottomContent"></div>
@@ -93,7 +94,7 @@
 			    var AppViewModel=
 			    {
 			        userId: ko.observable(),
-                    userEmail: ko.observable(''),
+                    userEmail: ko.observable(),
 			    	btnNext: function()
 			    	{
 			    		$('.bottomContent').attr('id', 'bio');
@@ -134,7 +135,7 @@
 			                            }
 			                            else
 			                            {
-			                                SampleSite.UserSignedIn();
+			                                SampleSite.alertMessage("alertMessage", "danger", "Your Email Address is required");
 			                            }
 			                        }
 			                        else
