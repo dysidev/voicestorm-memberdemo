@@ -28,7 +28,7 @@
           <a class="navbar-brand" href="<?php echo substr(substr(__FILE__, strlen(realpath($_SERVER['DOCUMENT_ROOT']))), 0, - strlen(basename(__FILE__))); ?>">Sample App</a>
         </div>
         <div class="collapse navbar-collapse">
-	        <ul class="nav navbar-nav header-list"  data-bind="visible: SampleSite.headerHelpers.showHeader()">	        	
+	        <ul class="nav navbar-nav header-list"  data-bind="visible: SampleSite.headerHelpers.showHeader()" style="display: none">	        	
 	        	<li><a href="home.php">Home</a></li>			
 				<li><a href="leaderboard.php">Leaderboard</a></li>
 				<li><a href="createpost.php">Post</a></li>
@@ -36,7 +36,7 @@
 	            <li class="divider"></li>
 	            <li><a class="visible-xs" href="#" data-bind="click: SampleSite.headerHelpers.btnLogout">Logout</a></li>
 	        </ul>
-          	<ul class="nav navbar-nav navbar-right"  data-bind="visible: SampleSite.headerHelpers.showHeader()">
+          	<ul class="nav navbar-nav navbar-right"  data-bind="visible: SampleSite.headerHelpers.showHeader()" style="display: none">
           		<li class="dropdown hidden-xs">
 	              	<a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown">
 	              		<span id="userDisplayName" data-bind="text: SampleSite.headerHelpers.userDisplayName()"></span>
